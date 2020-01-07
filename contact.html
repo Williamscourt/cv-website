@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body styles="background-color:#12cad6;">
+    <table width="800">
+<tr>
+    <td><a href="index.html">Home</a></td>
+    <td><a href="index.html">Projects</a></td>
+    <td><a href="contact.html">Contact</a></td>
+</tr>
+    </table>
+    <h1>Contact Me</h1>
+    <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post">
+      <fieldset>
+        <legend>Personal Imformation</legend>
+   <p> Full Name:<input type="text" name="name" value=""> <br></p>
+        <p> Address:<input type="text" name="address" value=""> <br></p>
+        <p>  Mobile:<input type="text" name="mobile" value=""><br></p>
+        <p>Email:<input type="text" name="Email" value=""><br></p>
+      <p> Course Interested:<input type="text" name="Course" value=""> <br></p>
+    </fieldset>
+    <fieldset>
+      <legend>Apointment Days</legend>
+    <label for="Mon">Mon:</label> <input id="Mon" type="radio" name="appoint" value="Mon">
+    <label for="Tue">Tue:</label> <input id="Tue" type="radio" name="appoint" value="Tue">
+    <label for="Wed">Wed:</label> <input id="Wed"type="radio" name="appoint" value="Wed">
+    <label for="Thur">Thur:</label> <input id="Thur"type="radio" name="appoint" value="Thur">
+    <label for="Fri">Fri:</label> <input id="Fri"type="radio" name="appoint" value="Fri">
+  </fieldset>
+    <br />
+    <fieldset>
+      <legend>Our Services</legend>
+<label for="Services">Services:</label>
+<input list="Servicestypes" id="Services" name="Services" value="">
+<datalist id="Servicestypes">
+  <option value="Course consultations">
+    <option value="Bookings">
+      <option value="Open Day">
+        <option value="Enrollment">
+    </fieldset>
+</datalist>
+<br>
+<p> Messages<Textarea name=""rows="4" cols="80"></textarea><br></p>
+  <input type="submit" name="submit" value="submit">
+
+
+    </form>
+  </body>
+</html>
